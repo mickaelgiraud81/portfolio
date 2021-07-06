@@ -95,7 +95,7 @@ TL1
 .from(btnRondAccueil, {y: -50, opacity:0, ease: Power3.easeOut, duration: 0.4}, '-=1')
 
 window.addEventListener('load', () => {
-    TLl.play();
+    TL1.play();
 })
 
 // Animation scrollMajic GSAP presentation
@@ -105,7 +105,7 @@ const titrePres = document.querySelector('.titre-pres')
 
 const tlpres = new TimelineMax();
 
-t1pres
+tlpres
 .from(titrePres, {y: -200, opacity: 0, duration: 0.6})
 
 const controller = new ScrollMagic.Controller();

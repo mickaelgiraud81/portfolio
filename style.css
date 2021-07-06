@@ -20,7 +20,7 @@ body {
     background: #333;
     position: fixed;
     top: 0;
-    left: 0px;
+    left: -300px;
     border-right: 1px dashed #f1f1f1;
     z-index: 5;
     transition: all 0.2s ease-in-out;
@@ -70,16 +70,17 @@ body {
 
 .cercle-portrait {
     margin: 20px 0;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 140px;
+    height: 170px;
     position: relative;
+    overflow: hidden;
+    border: 1px solid #fff;
     box-shadow: 26px 26px 53px #292929,
                 -26px -26px 53px #3d3d3d;      
 }
 
 .cercle-portrait img {
-    width: 100px;
+    width: 140px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -118,10 +119,6 @@ body {
 
     .menu-visible {
         left: 0px!important;
-    }
-
-    .blocs-menu:nth-child(1) {
-        display: none;
     }
 
     .blocs-menu:nth-child(7) {
@@ -204,10 +201,14 @@ body {
     background-size: cover;
     background-position: right;
     height: 100vh;
-    min-height: 900px;
     width: calc(100% - 300px);
     margin-left: auto;
     position: relative;
+}
+
+.test {
+    position: absolute;
+    bottom: 25vh;
 }
 
 h1 {
@@ -639,7 +640,8 @@ h1 {
 .item {
     margin: 20px;
     width: 420px;
-    height: 400px;
+    min-height: 400px;
+    padding-bottom: 10px;
     background: #f0f2f0;
     color: #333;
     transition: transform 0.3s ease-out;
@@ -668,8 +670,23 @@ h1 {
 
 .item p {
     padding: 10px 10px 0;
+    min-height: 70px;
 }
 
+.blocBtn {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-git {
+    margin: 10px;
+    opacity: 0.5;
+    transition: all 1s ease;
+}
+
+.btn-git:hover {
+    opacity: 1;
+    transition: all 1s ease;
+}
 .btn-projet {
     display: block;
     margin: 10px;
@@ -786,6 +803,14 @@ h1 {
     background-color: white;
     padding: 50px 0 ;
     width: 90%;
+}
+
+@media screen and (min-width: 775px) {
+    .logos {
+        width: 25%;
+        text-align: center;
+        margin: 10px 0;
+    }
 }
 
 .logos > img:hover {
