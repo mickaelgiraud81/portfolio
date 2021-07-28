@@ -75,15 +75,11 @@ for(let i = 0; i < input_fields; i++) {
 
 // Anim GSAP + ScrollMagic
 
-
-
 const navbar = document.querySelector('.nav-gauche');
 const titre = document.querySelector('h1');
 const btn = document.querySelectorAll('.btn-acc');
 const btnMedias = document.querySelectorAll('.media');
 const btnRondAccueil = document.querySelector('.btn-rond');
-
-
 
 const TLl = gsap.timeline({paused: true});
 
@@ -161,7 +157,6 @@ reverse: false})
 // Vague 3
 
 const itemPortfolio3 = document.querySelectorAll('.vague3')
-
 const tlPortfolio3 = new TimelineMax()
 
 tlPortfolio3

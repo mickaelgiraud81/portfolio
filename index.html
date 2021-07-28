@@ -70,7 +70,7 @@
         </div>
     </nav>
 
-    <!-- section Accueil-->
+    <!-- Section Accueil -->
 
     <section class="accueil" id="accueil">
         <div class="test">
@@ -98,11 +98,6 @@
                 </a>
             </div>
         </div>
-
-
-
-
-
         <a href="#">
             <div class="btn-rond">
                 <img src="ressources/arrowDown.svg" alt="logo fleche bas" class="logo-btn-rond-acc">
@@ -117,7 +112,6 @@
         <h2 class="titre-pres">Apprenant en Développement web full stack</h2>
 
         <div class="container-presentation">
-
             <div class="fond-forme"></div>
             <div class="pres-gauche">
                 <h3>En reconversion j'apprend et me perfectionne de jour en jour.</h3>
@@ -130,7 +124,6 @@
                 </p>
                 <br>
                 <p> </p>
-
             </div>
             <div class="pres-droite">
                 <ul class="list-presentation">
@@ -150,11 +143,10 @@
                 </ul>
 
             </div>
-
         </div>
     </section>
 
-    <!-- Section Porfolio-->
+    <!-- Section Porfolio -->
 
     <section class="portfolio" id="port">
 
@@ -162,9 +154,7 @@
 
         <div class="cont-portfolio">
 
-
             <div class="item vague1">
-
                 <div class="cont-img-port">
                     <img src="ressources/departement.jpg" alt="img porfolio">
                 </div>
@@ -177,11 +167,8 @@
                     <a href="https://github.com/mickaelgiraud81/portfolio" target="_blank" class="btn-git"><img
                             src="ressources/gitbtn.png" alt="Lien vers le git du projet"></a>
                 </div>
-
             </div>
-
             <div class="item vague1">
-
                 <div class="cont-img-port">
                     <img src="ressources/pexels-amina-filkins-5410138.jpg" alt="img porfolio">
                 </div>
@@ -198,7 +185,6 @@
             </div>
 
             <div class="item vague1">
-
                 <div class="cont-img-port">
                     <img src="ressources/pexels-flo-maderebner-869258.jpg" alt="img porfolio">
                 </div>
@@ -209,7 +195,6 @@
             </div>
 
             <div class="item vague2">
-
                 <div class="cont-img-port">
                     <img src="ressources/pexels-nubia-navarro-(nubikini)-386025.jpg" alt="img porfolio">
                 </div>
@@ -223,7 +208,6 @@
             </div>
 
             <div class="item vague2">
-
                 <div class="cont-img-port">
                     <img src="ressources/animcss.jpg" alt="img porfolio">
                 </div>
@@ -233,7 +217,6 @@
             </div>
 
             <div class="item vague2">
-
                 <div class="cont-img-port">
                     <img src="ressources/d3.jpg" alt="img porfolio">
                 </div>
@@ -247,7 +230,6 @@
             <h2 class="titre-travail-exp">Mes Compétences</h2>
             <div class="skillboite">
                 <div class="skill" id="Compétences">
-
                     <div class="logos">
                         <img src="ressources/html.png" alt="logo_html5" title="html 5">
                     </div>
@@ -284,39 +266,30 @@
                     <div class="logos">
                         <img src="ressources/nodeJs.png" alt="logo_nodeJs" title="nodeJs">
                     </div>
-
                 </div>
             </div>
         </section>
-
     </section>
 
-
-
-    <!----Section------>
+    <!-- Section -->
 
     <section class="travail-exp" id="exp">
 
         <h2 class="titre-travail-exp">Mes experiences</h2>
 
         <div class="cont-exp-travail">
-
             <div class="barre-verticale">
                 <div class="boule-ico">
                     <img src="ressources/online.svg" alt="logo">
                 </div>
-
                 <div class="boule-ico">
                     <img src="ressources/Philips_shield_(2013).svg" alt="logo">
                 </div>
-
                 <div class="boule-ico">
                     <img src="ressources/fleche.png" alt="">
                 </div>
-
             </div>
             <div class="flex-cont-bloc-exp">
-
                 <div class="bloc bloc1">
                     <div class="contenu-bloc">
                         <p class="titre-section-bloc">OnlineFormaPro, 2020 - 2021</p>
@@ -324,12 +297,8 @@
                             autres dans le domaine du Développement web et web mobile. Photoshop, HTML,
                             CSS, PHP, SASS, JavaScript, MySql, MVC, Synfony, VueJS, bootstrap, git, github...
                         </p>
-
-
                     </div>
                 </div>
-
-
                 <div class="bloc bloc2">
                     <div class="contenu-bloc">
                         <p class="titre-section-bloc">Philips, 2002 - 2018</p>
@@ -337,16 +306,13 @@
                             j'ai été monteur cableur à la société Philips France qui était dans la construction
                             d'appareil luminaire. J'ai également fait un peu de logistique.
                         </p>
-
                     </div>
                 </div>
             </div>
-
         </div>
-
     </section>
 
-    <!--- Section Parallax --->
+    <!-- Section Parallaxe -->
 
     <div class="section-parallax">
         <p class="txt-par">2 tasses de thé</p>
@@ -354,33 +320,33 @@
         <p class="txt-par">0 client</p>
     </div>
 
-    <!--- Section Contact --->
+    <!-- Section Contact-->
 
     <section class="section-contact" id="contact">
 
         <h2><strong>Rentrons</strong> en Contact</h2>
-
         <div class="container-form">
-
-            <form class="form-bloc">
-
+            <form class="form-bloc" action="mail.php" method="POST">
                 <div class="form-groupe">
                     <label for="prenom">Prénom</label>
-                    <input type="text" required maxlength="16" id="prenom">
+                    <input type="text" required maxlength="16" id="prenom" name="prenom">
                 </div>
                 <div class="form-groupe">
                     <label for="nom">Nom</label>
-                    <input type="text" required maxlength="16" id="nom">
+                    <input type="text" required maxlength="16" id="nom" name="nom">
                 </div>
                 <div class="form-groupe">
-                    <textarea id="txt" placeholder="Votre message" required></textarea>
+                    <label for="mail">Votre adresse Email</label>
+                    <input type="text" required maxlength="255" id="mail" name="mail">
                 </div>
                 <div class="form-groupe">
-                    <input type="submit" value="ENVOYER" class="button-sub">
+                    <textarea id="txt" placeholder="Votre message" required name="texte"></textarea>
+                </div>
+                <div class="form-groupe">
+                    <input type="submit" value="ENVOYER" name="submit" class="button-sub">
                 </div>
             </form>
         </div>
-
     </section>
 
     <footer>
