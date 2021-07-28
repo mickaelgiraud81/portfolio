@@ -121,7 +121,7 @@ const scene = new ScrollMagic.Scene({
     riverse: false 
 })
 .setTween(tlPortfolio)
-.addIndicators()
+//.addIndicators()
 .addTo(controller)
 
 // Anim portfolio
@@ -140,7 +140,7 @@ tlPortfolio1
 const scene2 = new ScrollMagic.Scene({triggerElement: portfolioContainer, triggerHook: 0.5,
 reverse: false}) 
 .setTween(tlPortfolio1)
-.addIndicators()
+//.addIndicators()
 .addTo(controller)
 
 // Vague 2
@@ -155,7 +155,7 @@ tlPortfolio2
 const scene3 = new ScrollMagic.Scene({triggerElement: tlPortfolio1, triggerHook: 0.2,
 reverse: false}) 
 .setTween(tlPortfolio2)
-.addIndicators()
+//.addIndicators()
 .addTo(controller)
 
 // Vague 3
@@ -170,5 +170,5 @@ tlPortfolio3
 const scene4 = new ScrollMagic.Scene({triggerElement: tlPortfolio2, triggerHook: 0.2,
 reverse: false}) 
 .setTween(tlPortfolio3)
-.addIndicators()
+//.addIndicators()
 .addTo(controller)
