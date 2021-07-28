@@ -1,7 +1,7 @@
 <?php
 $from = $_POST['mail'];
 if($_POST['submit']){
-    $dest = "gonzales.pierre01470@gmail.com";
+    $dest = "mickaelgiraud81@yahoo.com";
     $sujet = "Contact Portfolio";
     $message = $_POST['texte'];
     $header = $from; 
