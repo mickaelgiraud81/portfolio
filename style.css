@@ -803,7 +803,7 @@ h1 {
     display: flex;
     justify-content: flex-end;
     margin-top: 60px;
-    width: 80%;
+    width: 90%;
 
 }
 .skill {
@@ -815,6 +815,12 @@ h1 {
     background-color: white;
     padding: 50px 0 ;
     width: 90%;
+}
+
+@media screen and (max-width: 1300px) {
+    .contenerskill{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 775px) {
@@ -1322,14 +1328,3 @@ footer {
         padding-left: 0px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
